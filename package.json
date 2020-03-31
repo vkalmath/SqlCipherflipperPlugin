@@ -1,0 +1,30 @@
+{
+  "name": "CipherDatabases",
+  "version": "1.0.0",
+  "title": "CipherDatabases",
+  "icon": "internet",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "flipper-plugin"
+  ],
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "sql-formatter": "^2.3.3"
+  },
+  "bugs": {
+    "url": "https://fb.workplace.com/groups/flippersupport/",
+    "email": "oncall+flipper@xmail.facebook.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Veeresh",
+  "description": "Flipper plugin for android-database-sqlcipher",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkalmath/SqlCipherflipperPlugin.git"
+  },
+  "homepage": "https://github.com/vkalmath/SqlCipherflipperPlugin#readme"
+}
