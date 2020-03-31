@@ -1,7 +1,7 @@
 {
-  "name": "CipherDatabases",
+  "name": "cipherdatabases",
   "version": "1.0.0",
-  "title": "CipherDatabases",
+  "title": "cipherdatabases",
   "icon": "internet",
   "main": "index.js",
   "license": "MIT",
