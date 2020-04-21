@@ -1,5 +1,5 @@
 # SqlCipherflipperPlugin
-Flipper plugin for https://github.com/sqlcipher/android-database-sqlcipher
+Flipper Desktop plugin for https://github.com/sqlcipher/android-database-sqlcipher
 
 This plugin used with Flipper Desktop client to visualize the encrypted DB inside android applications.
 The encryped sql DB it works with is https://github.com/sqlcipher/android-database-sqlcipher
