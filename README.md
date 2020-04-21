@@ -14,3 +14,4 @@ Usage steps:
 
 
 Note: This needs android plugin as well to work.
+It can be found here: https://github.com/vkalmath/flipper-sql-cipher-android/blob/master/README.md
