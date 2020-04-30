@@ -1,9 +1,12 @@
 {
-  "name": "cipherdatabases",
+  "$schema": "https://fbflipper.com/schemas/plugin-package/v2.json",
+  "name": "flipper-plugin-cipherdatabases",
+  "id": "cipherdatabases",
   "version": "1.0.1",
   "title": "cipherdatabases",
   "icon": "internet",
-  "main": "index.js",
+  "main": "dist/bundle.js",
+  "flipperBundlerEntry": "index.js",
   "license": "MIT",
   "keywords": [
     "flipper-plugin"
@@ -12,16 +15,23 @@
     "dateformat": "^3.0.3",
     "sql-formatter": "^2.3.3"
   },
+  "peerDependencies": {
+    "flipper": "latest"
+  },
   "bugs": {
     "url": "https://fb.workplace.com/groups/flippersupport/",
     "email": "oncall+flipper@xmail.facebook.com"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "flipper-pkg lint && flipper-pkg bundle"
   },
   "author": "Veeresh",
   "description": "Flipper plugin for android-database-sqlcipher",
-  "devDependencies": {},
+  "devDependencies": {
+    "flipper": "latest",
+    "flipper-pkg": "latest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vkalmath/SqlCipherflipperPlugin.git"
